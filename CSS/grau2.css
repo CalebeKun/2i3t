@@ -1,0 +1,9 @@
+body {
+    background-color: antiquewhite;
+}
+
+.variavel {
+    width: 32px;
+    background-color: antiquewhite;
+    text-align: right;
+}

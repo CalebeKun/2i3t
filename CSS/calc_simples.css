@@ -4,7 +4,7 @@ body {
 .calc_simples {
     background-color: darksalmon;
     padding: 5px;
-    width: 210px;
+    width: 200px;
     border-radius: 5px;
 }
 .display_simples {
@@ -15,10 +15,12 @@ body {
 #resultado {
     background-color: green;
     color: greenyellow;
+    text-align: right;
 }
 .btn {
     text-align: center;
     padding: 5px;
+    font-size: 22px;
 }
 button {
    width: 40px;

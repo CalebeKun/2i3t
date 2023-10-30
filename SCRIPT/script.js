@@ -88,3 +88,35 @@ function digitando(tecla){
    valor = valor + tecla;
    mostrar_resultado();
 }
+
+const calcular_equacao = () => {
+    if (a != "" && a != "0") {
+        alert(sa + a + "x2 " + sb + b + "x " + sc + c + " = 0")
+    }
+}
+
+const set_sinal_a = () => {
+    sa = document.getElementById("sinal_a").value;
+    calcular_equacao();
+}
+const set_sinal_b = () => {
+    sb = document.getElementById("sinal_b").value;
+    calcular_equacao();
+}
+const set_sinal_c = () => {
+    sc = document.getElementById("sinal_c").value;
+    calcular_equacao();
+}
+
+const set_valor_a = () => {
+    a = document.getElementById("valor_a").value;
+    calcular_equacao();
+}
+const set_valor_b = () => {
+    b = document.getElementById("valor_b").value;
+    calcular_equacao();
+}
+const set_valor_c = () => {
+    c = document.getElementById("valor_c").value;
+    calcular_equacao();
+}
